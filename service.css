@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.nevbar{  
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    color: white;
+    display: flex;
+}
+.num{
+    height: 200px;
+    width: 70%;
+    padding-top:75px ;
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: right;
+
+
+}
+.contect{
+    height: 20px;
+    width: 40px;
+}
+
+.nev-logo {
+    height: 200px;
+    width: 30%;
+    background-image: url("./Images/nevlogo.jpeg");
+    background-size: cover;
+    display: flex;
+
+}
+.mennu{
+    width: 100%;
+    height: 60px;
+    background-color: #940a4f;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    
+
+}
+.content-mennu{
+   width: 85%;
+   height: 60px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 15px;
+
+
+}
+.mennu-nev:hover{
+    background-color: #e2ccd7;
+}
+.mennu-nev{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.content{
+    text-decoration: none;
+    color: rgba(37, 35, 35, 0.87);
+    font-size: 20px;    
+    
+}
+.a2{
+    text-decoration: none;
+    color: rgb(255, 250, 250);
+}
+.icon{
+    width: 15%;
+    height: 60px;
+    font-size: 32px;
+    padding-top:13px;
+    color: #940a4f;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.c-item{
+height: 480px;
+filter: brightness(0.6);
+}
+.c-img{
+ height: 100%;
+ object-fit: cover
+ 
+}
+h1{
+    color: aliceblue;
+}
+.get-discount{
+    background-color: #940a4f;
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+    padding-top:80px ;
+    display: flex;
+}
+.service-heding{
+    color: black;
+    text-align: center;
+}
+.bottem-heding{
+    width: 100%;
+    height: 100px;
+    background-color: #ce3f78;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid black;
+    
+}
+.heading3{
+    color: aliceblue;
+    padding-top: 40px;
+    text-align: left;
+}
+
+
+
+
+
+.place{
+    height: 450px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.438);
+    display: flex;
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 100px;
+
+
+}
+.address-content{
+    height: 400px;
+    width: 34%;
+    justify-items: center;
+    border-right: 3px,solid,black;
+}
+.address-maile{
+    height: 400px;
+    width: 34%;
+    justify-items:center ;
+    text-align: center;
+    
+
+}
+.address-phone{
+    height: 400px;
+    width: 33%;
+    justify-items: center;
+    
+}
+.icon-address{
+    height: 100px;
+    width: 100px;
+    background-color: #1d1f1d;
+   /** position: absolute;
+    top: 1530px;
+    margin-left: 125px;**/
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    
+
+}
+.icon-address:hover{
+    background-color: rgb(172, 36, 104);
+    
+
+}
+    
+
+.c-phone {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    color: #fffbfcf8;
+
+}
+.address-icon{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    color: #faf6f8f1;
+
+
+}
+/**contect section stylig**/
+
+
+.quick-heding{
+    color: #0d0f0d;
+    text-align: center;
+    margin-top: 30PX;
+    
+}
+.quick-form-tital{
+    color: #27292736;
+    text-align: center;
+}
+.quick-form{
+    width: 76%;
+    height: 360px;
+    padding-left: 23%;
+    
+}
+.c-button{
+    text-decoration: none;
+    background-color: #940a4f;
+    text-align: center;
+}
+.c-button:hover{
+    background-color: #e2ccd7;
+}
+
+
+/** footer**/
+.footer-contenar{
+    width: 100%;
+    height: 310px;
+    margin-bottom: 0px;
+    background-color: #be789b;
+    border: 3px solid black;
+    display: flex;
+    display: inline-flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #474947;
+}
+.footer a:hover{
+    background-color: rgb(240, 220, 176);
+}
+.bottem-bar p{
+    text-align: center;
+    border: 3px solid black;
+    width: 100%;
+    height: 40px;
+    margin-bottom:0px ;
+}
+.i-icon{
+    font-size: 1.7rem;
+}
+.i-icon:hover{
+    background-color: #dbc5d0;
+}
