@@ -3,7 +3,7 @@
     font-family: arial;
     border: border-box;
 }
-.nevbar{  
+.navbar{  
     height: 200px;
     width: 100%;
     background-color: white;
@@ -22,7 +22,7 @@
 
 
 }
-.contect{
+.contact{
     height: 20px;
     width: 40px;
 }
@@ -35,7 +35,7 @@
     display: flex;
 
 }
-.mennu{
+.menu{
     width: 100%;
     height: 60px;
     background-color: #940a4f;
@@ -45,7 +45,7 @@
     z-index: 1;
 
 }
-.content-mennu{
+.content-menu{
    width: 85%;
    height: 60px;
   display: flex;
@@ -55,10 +55,10 @@
 
 
 }
-.mennu-nev:hover{
+.menu-nev:hover{
     background-color: #e2ccd7;
 }
-.mennu-nev{
+.menu-nev{
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -198,7 +198,7 @@ h1{
     z-index: 1;
 
 }
-.content-mennu i:hover a{
+.content-menu i:hover a{
     background-color: #940a4f;
 }
 li:hover ul#submition{
@@ -208,11 +208,11 @@ li:hover ul#submition{
 
 
 }**/
-/**.content-mennu ul,  .content-mennu{
+/**.content-menu ul,  .content-menu{
     margin: 0;
     padding: 0;
 }
-.content-mennu a{
+.content-menu a{
     background-color: #0a945f;
     color: #e2ccd7;
     display: block;
@@ -225,7 +225,7 @@ li:hover ul#submition{
     transition: all;
     transition:all 0.25s ease;
 }
-.content-mennu:hover a{
+.content-menu:hover a{
     background-color: #1d1f1d;
 }
 #submition {

@@ -3,7 +3,7 @@
     font-family: arial;
     border: border-box;
 }
-.nevbar{  
+.navbar{  
     height: 200px;
     width: 100%;
     background-color: white;
@@ -22,7 +22,7 @@
 
 
 }
-.contect{
+.contact{
     height: 20px;
     width: 40px;
 }
@@ -35,7 +35,7 @@
     display: flex;
 
 }
-.mennu{
+.menu{
     width: 100%;
     height: 60px;
     background-color: #940a4f;
@@ -46,7 +46,7 @@
     
 
 }
-.content-mennu{
+.content-menu{
    width: 85%;
    height: 60px;
   display: flex;
@@ -56,10 +56,10 @@
 
 
 }
-.mennu-nev:hover{
+.menu-nev:hover{
     background-color: #e2ccd7;
 }
-.mennu-nev{
+.menu-nev{
     text-decoration: none;
     color: white;
     font-size: 20px;
